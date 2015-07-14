@@ -232,13 +232,13 @@
   };
 
   var botCreator = "Matthew (Yemasthui)";
-  var botMaintainer = "Benzi (Quoona)"
+  var botMaintainer = "Karine (LadyHell)"
   var botCreatorIDs = ["3851534", "4105209"];
 
   var basicBot = {
     version: "2.8.9",
     status: false,
-    name: "basicBot",
+    name: "Midnight Bot",
     loggedInID: null,
     scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
     cmdLink: "http://git.io/245Ppg",
@@ -248,8 +248,8 @@
     retrieveSettings: retrieveSettings,
     retrieveFromStorage: retrieveFromStorage,
     settings: {
-      botName: "basicBot",
-      language: "english",
+      botName: "☢ Midnight Bot ☢",
+      language: "Umas doidêra que nem eu sei",
       chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
@@ -381,7 +381,7 @@
           API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
           setTimeout(function (winner, pos) {
             basicBot.userUtilities.moveUser(winner, pos, false);
-          }, 1 * 1000, winner, pos);
+          }, 1 * 1000, winner, pos * 1);
         }
       }
     },
@@ -1280,10 +1280,10 @@
             'hueh', 'hu3', 'brbr', 'heu', 'brbr', 'kkkk', 'spoder', 'mafia', 'zuera', 'zueira',
             'zueria', 'aehoo', 'aheu', 'alguem', 'algum', 'brazil', 'zoeira', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
             'hitler', 'ashua', 'ahsu', 'ashau', 'lulz', 'huehue', 'hue', 'huehuehue', 'merda', 'pqp', 'puta', 'mulher', 'pula', 'retarda', 'caralho', 'filha', 'ppk',
-            'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
+            'gringo', 'pau', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
           ],
           curses: [
-            'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka'
+            'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafoca'
           ]
         },
         connectAPI: function () {
