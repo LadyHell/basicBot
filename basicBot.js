@@ -238,7 +238,7 @@
     var basicBot = {
         version: "2.8.10",
         status: false,
-        name: "basicBot",
+        name: "☢ MidnightBOT ☢ ",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -248,8 +248,8 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "english",
+            botName: "☢ MidnightBOT ☢",
+            language: "portuguese",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
@@ -279,13 +279,13 @@
             usercommandsEnabled: true,
             skipPosition: 3,
             skipReasons: [
-                ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
-                ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
-                ["sound", "The song you played had bad sound quality or no sound. "],
-                ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+        	["theme", "Essa música não se encaixa nos padrões da sala. "],
+        	["op", "Essa música está na lista OP. "],
+        	["history", "Essa música ainda tá no histórico, presta atenção, caralho. "],
+        	["mix", "Essa poarr é longa demais, vou pular. "],
+        	["sound", "Essa música está indisponível."],
+        	["nsfw", "Essa música que você tocou é NSFW (imprópria, pornô), enfia seus NSFW no seu cu. "],
+        	["unavailable", "Essa música não está disponível. Na próxima vez preste atenção na sua playlist antes de tocar."]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
@@ -2079,7 +2079,7 @@
             },
 
             englishCommand: {
-                command: 'english',
+                command: 'portugues',
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2094,15 +2094,15 @@
                         var ch = '/me @' + name + ' ';
                         switch(lang){
                             case 'en': break;
-                            case 'da': ch += 'Vær venlig at tale engelsk.'; break;
-                            case 'de': ch += 'Bitte sprechen Sie Englisch.'; break;
-                            case 'es': ch += 'Por favor, hable Inglés.'; break;
-                            case 'fr': ch += 'Parlez anglais, s\'il vous plaît.'; break;
-                            case 'nl': ch += 'Spreek Engels, alstublieft.'; break;
-                            case 'pl': ch += 'Proszę mówić po angielsku.'; break;
-                            case 'pt': ch += 'Por favor, fale Inglês.'; break;
-                            case 'sk': ch += 'Hovorte po anglicky, prosím.'; break;
-                            case 'cs': ch += 'Mluvte prosím anglicky.'; break;
+                            case 'da': ch += 'Vær venlig at tale PORTUGUÊS.'; break;
+                            case 'de': ch += 'Bitte sprechen Sie PORUTUGÊS.'; break;
+                            case 'es': ch += 'Por favor, hable PORTUGUÊS.'; break;
+                            case 'fr': ch += 'Parlez PORTUGÊS, s\'il vous plaît.'; break;
+                            case 'nl': ch += 'Spreek PORTUGUÊS, alstublieft.'; break;
+                            case 'pl': ch += 'Proszę mówić po PORTUGUÊS.'; break;
+                            case 'pt': ch += 'Por favor, fale PORUTUGÊS. (hu3hu3hu3)'; break;
+                            case 'sk': ch += 'Hovorte po PORTUGUÊS, prosím.'; break;
+                            case 'cs': ch += 'Mluvte prosím PORTUGUÊS.'; break;
                             case 'sr': ch += 'Молим Вас, говорите енглески.'; break;
                         }
                         ch += ' English please.';
